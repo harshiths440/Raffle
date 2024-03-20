@@ -66,9 +66,6 @@ const ProfileDropDown = () => {
             </DropdownItem>
             <DropdownItem key="settings">My Profile</DropdownItem>
             <DropdownItem key="all_orders">All Orders</DropdownItem>
-            <DropdownItem key="team_settings">
-              Apply for seller account
-            </DropdownItem>
             <DropdownItem
               key="logout"
               color="danger"
