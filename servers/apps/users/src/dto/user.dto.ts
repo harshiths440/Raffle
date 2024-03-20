@@ -1,5 +1,5 @@
 import { InputType, Field } from '@nestjs/graphql';
-import { IsEmail, IsNotEmpty, IsString, MinLength } from 'class-validator';
+import { IsEmail, IsEnum, IsNotEmpty, IsString, MinLength } from 'class-validator';
 
 enum Gender {
   Male = 'Male',
@@ -30,6 +30,7 @@ export class RegisterDto {
 
   @Field()
   @IsNotEmpty({ message: 'Please select your gender.' })
+  @IsEnum(Gender)
   gender: Gender;
 }
 
