@@ -1,4 +1,4 @@
-import styles from "@/src/utils/style";
+import styles from "../../../utils/style";
 import NavItems from "../NavItems";
 import ProfileDropDown from "../ProfileDropDown";
 

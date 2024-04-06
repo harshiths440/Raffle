@@ -1,4 +1,4 @@
-import ResetPassword from "@/src/shared/Auth/ResetPassword";
+import ResetPassword from "@/src/shared/views/Auth/ResetPassword";
 
 const Page = ({
   searchParams,

@@ -5,7 +5,9 @@
   "compilerOptions": {
     "deleteOutDir": true,
     "webpack": true,
-    "tsConfigPath": "apps/gateway/tsconfig.app.json"
+    "tsConfigPath": "apps/gateway/tsconfig.app.json",
+    "assets": ["./email-templates/**/*"],
+    "watchAssets": true
   },
   "monorepo": true,
   "root": "apps/gateway",
@@ -25,7 +27,9 @@
       "entryFile": "main",
       "sourceRoot": "apps/users/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/users/tsconfig.app.json"
+        "tsConfigPath": "apps/users/tsconfig.app.json",
+        "assets": ["./email-templates/**/*"],
+        "watchAssets": true
       }
     }
   }

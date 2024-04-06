@@ -12,6 +12,7 @@ export const ACTIVATE_USER: DocumentNode = gql`
       user {
         name
         email
+        password
         phone_number
         gender
         createdAt

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Login from "../shared/Auth/Login";
-import Signup from "../shared/Auth/Signup";
-import Verification from "../shared/Auth/Verification";
-import ForgotPassword from "../shared/Auth/ForgotPassword";
+import Login from "../views/Auth/Login";
+import Signup from "../views/Auth/Signup";
+import Verification from "../views/Auth/Verification";
+import ForgotPassword from "../views/Auth/ForgotPassword";
 
 const AuthScreen = ({ setOpen }: { setOpen: (e: boolean) => void }) => {
   const [activeState, setActiveState] = useState("Login");

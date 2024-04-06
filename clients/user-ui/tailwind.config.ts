@@ -16,6 +16,7 @@ const config: Config = {
       },
       fontFamily:{
         Poppins: ["var(--font-Poppins)"],
+        Inter: ["var(--font-inter)"],
       },
     },
   },

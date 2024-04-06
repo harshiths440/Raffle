@@ -1,5 +1,5 @@
 import Header from "../components/Layout/Header";
-import Hero from "../shared/Root/Hero";
+import Hero from "../views/Root/Hero";
 
 const HomeScreen = async () => {
   return (

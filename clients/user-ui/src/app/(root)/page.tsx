@@ -1,4 +1,4 @@
-import HomeScreen from "@/src/screens/HomeScreen";
+import HomeScreen from "../../shared/screens/HomeScreen";
 
 const Page = () => {
   return (
